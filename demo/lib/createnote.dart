@@ -8,7 +8,7 @@ class CreateNoteLayout extends StatefulWidget {
 }
 
 class CreateNoteLayoutState extends State<CreateNoteLayout> {
-  EditorJSEditor editorJSEditor;
+  late EditorJSEditor editorJSEditor;
 
   @override
   void initState() {
